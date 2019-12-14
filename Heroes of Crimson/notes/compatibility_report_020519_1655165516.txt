@@ -1,0 +1,1814 @@
+Converting GML script: ${project_dir}\scripts\scr_wave_motion_init\scr_wave_motion_init.gml
+Converted description /// @description scr_wave_motion_init(increment,amplitude)/// @param increment
+/// @param amplitude
+
+Converting GML script: ${project_dir}\scripts\scr_bounce\scr_bounce.gml
+Converted description /// @description scr_bounce(face direction);/// @param face direction
+
+Converting GML script: ${project_dir}\scripts\scr_bounce_45\scr_bounce_45.gml
+Converted description /// @description scr_bounce_45(face direction);/// @param face direction
+
+Converting GML script: ${project_dir}\scripts\scr_plbullet_hit\scr_plbullet_hit.gml
+Converted description /// @description  scr_plbullet_hit();
+
+Converting GML script: ${project_dir}\scripts\scr_plbullet_auto\scr_plbullet_auto.gml
+Converted description /// @description scr_plbullet_auto();
+
+Converting GML script: ${project_dir}\scripts\scr_plbullet_rotate\scr_plbullet_rotate.gml
+Converted description /// @description scr_plbullet_rotate(rotation);/// @param rotation
+
+Converting GML script: ${project_dir}\scripts\scr_spell_proj_init\scr_spell_proj_init.gml
+Converted description /// @description scr_spell_proj_init(ability id, img spd, img scale, vol):/// @param ability id
+/// @param  img spd
+/// @param  img scale
+/// @param  vol
+
+Converting GML script: ${project_dir}\scripts\scr_enbullet_auto\scr_enbullet_auto.gml
+Converted description /// @description  scr_enbullet_auto();
+
+Converting GML script: ${project_dir}\scripts\scr_enbullet_hit\scr_enbullet_hit.gml
+Converted description /// @description scr_enbullet_hit(sound to play);/// @param sound to play
+
+Converting GML script: ${project_dir}\scripts\scr_enbullet_rotate\scr_enbullet_rotate.gml
+Converted description /// @description scr_enbullet_rotate(rotation);/// @param rotation
+
+Converting GML script: ${project_dir}\scripts\scr_att_calc\scr_att_calc.gml
+Converted description /// @description scr_att_calc(weapon dmg);/// @param weapon dmg
+
+Converting GML script: ${project_dir}\scripts\scr_dex_calc\scr_dex_calc.gml
+Converted description /// @description scr_dex_calc(RoF in %);/// @param RoF in %
+
+Converting GML script: ${project_dir}\scripts\scr_crit_calc\scr_crit_calc.gml
+Converted description /// @description scr_crit_calc(weapon id);/// @param weapon id
+
+Converting GML script: ${project_dir}\scripts\scr_crit_calc_spell\scr_crit_calc_spell.gml
+Converted description /// @description scr_crit_calc_spell(spell id);/// @param spell id
+
+Converting GML script: ${project_dir}\scripts\scr_wis_regen_calc\scr_wis_regen_calc.gml
+Converted description /// @description  scr_wis_regen_calc();
+
+Converting GML script: ${project_dir}\scripts\scr_dot_calc\scr_dot_calc.gml
+Converted description /// @description  scr_dot_calc(amount);/// @param amount
+
+Converting GML script: ${project_dir}\scripts\scr_hp_regen_calc\scr_hp_regen_calc.gml
+Converted description /// @description  scr_hp_regen_calc(amount);/// @param amount
+
+Converting GML script: ${project_dir}\scripts\scr_recovertime_calc\scr_recovertime_calc.gml
+Converted description /// @description scr_recovertime_calc(consumable id, life/mana);/// @param consumable id
+/// @param  life/mana
+
+Converting GML script: ${project_dir}\scripts\scr_camera\scr_camera.gml
+Converted builtin - line 2: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] += random_range(-global.EQ_level, global.EQ_level -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (random_range(-global.EQ_level, global.EQ_level) )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] += random_range(-global.EQ_level, global.EQ_level -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (random_range(-global.EQ_level, global.EQ_level) )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 2: view_xview[0] += ((x - (__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.33 -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (((x - (__view_get( e__VW.WView, 0 )/2)) - __view_get( e__VW.XView, 0 )) * 0.33) )
+Converted builtin - line 4: view_xview[0] = floor(__view_get( e__VW.XView, 0 -> __view_set( e__VW.XView, 0, floor(__view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] += ((y - (__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.33 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (((y - (__view_get( e__VW.HView, 0 )/2)) - __view_get( e__VW.YView, 0 )) * 0.33) )
+Converted builtin - line 5: view_yview[0] = floor(__view_get( e__VW.YView, 0 -> __view_set( e__VW.YView, 0, floor(__view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_camshake\scr_camshake.gml
+Converted description /// @description scr_camshake(EQ time, EQ level);/// @param EQ time
+/// @param  EQ level
+
+Converting GML script: ${project_dir}\scripts\scr_spawnradius\scr_spawnradius.gml
+Converted description /// @description scr_spawnradius(center_x,center_y,max dis,min dis,obj);/// @param center_x
+/// @param center_y
+/// @param max dis
+/// @param min dis
+/// @param obj
+
+Converting GML script: ${project_dir}\scripts\scr_spawnradius_move\scr_spawnradius_move.gml
+Converted description /// @description scr_spawnradius_move(center_x,center_y,max dis,min dis,obj,spd,dir);/// @param center_x
+/// @param center_y
+/// @param max dis
+/// @param min dis
+/// @param obj
+/// @param spd
+/// @param dir
+
+Converting GML script: ${project_dir}\scripts\scr_jumpradius\scr_jumpradius.gml
+Converted description /// @description scr_jumpradius(center_x,center_y,max dis,min dis);/// @param center_x
+/// @param center_y
+/// @param max dis
+/// @param min dis
+
+Converting GML script: ${project_dir}\scripts\scr_circle_create\scr_circle_create.gml
+Converted description /// @description scr_circle_create(x,y,amount,len,obj);/// @param x
+/// @param y
+/// @param amount
+/// @param len
+/// @param obj
+
+Converting GML script: ${project_dir}\scripts\scr_circle_create_col\scr_circle_create_col.gml
+Converted description /// @description scr_circle_create_col(x,y,amount,len,obj);/// @param x
+/// @param y
+/// @param amount
+/// @param len
+/// @param obj
+
+Converting GML script: ${project_dir}\scripts\scr_circle_create_move\scr_circle_create_move.gml
+Converted description /// @description scr_circle_create_move(x,y,amount,len,obj,spd,dir offset);/// @param x
+/// @param y
+/// @param amount
+/// @param len
+/// @param obj
+/// @param spd
+/// @param dir offset
+
+Converting GML script: ${project_dir}\scripts\scr_circle_create_move2\scr_circle_create_move2.gml
+Converted description /// @description scr_circle_create_move2(x, y, amount, len, obj, spd, move dir);/// @param x
+/// @param  y
+/// @param  amount
+/// @param  len
+/// @param  obj
+/// @param  spd
+/// @param  move dir
+
+Converting GML script: ${project_dir}\scripts\scr_draw_state\scr_draw_state.gml
+Converted description /// @description  scr_draw_state();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_idle_init\scr_enemy_idle_init.gml
+Converted description /// @description  scr_enemy_idle_init();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_idle_step\scr_enemy_idle_step.gml
+Converted description /// @description  scr_enemy_idle_step(move speed, move time, wait time);/// @param move speed
+/// @param  move time
+/// @param  wait time
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_chase_step\scr_enemy_chase_step.gml
+Converted description /// @description  scr_enemy_chase_step(movement speed, direction);/// @param movement speed
+/// @param  direction
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_burst_init\scr_enemy_burst_init.gml
+Converted description /// @description  scr_enemy_burst_init();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_burst_step\scr_enemy_burst_step.gml
+Converted description /// @description  scr_enemy_burst_step(direction, move speed, move time, wait time, friction);/// @param direction
+/// @param  move speed
+/// @param  move time
+/// @param  wait time
+/// @param  friction
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_attack_init\scr_enemy_attack_init.gml
+Converted description /// @description  scr_enemy_attack_init();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_attack_step\scr_enemy_attack_step.gml
+Converted description /// @description  scr_enemy_attack_step(move speed, move time, wait time);/// @param move speed
+/// @param  move time
+/// @param  wait time
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_circle_step\scr_enemy_circle_step.gml
+Converted description /// @description  scr_enemy_circle_step(movement speed, clockwise)/// @param movement speed
+/// @param  clockwise
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_search_step\scr_enemy_search_step.gml
+Converted description /// @description  scr_enemy_search_step(movement speed);/// @param movement speed
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_bs_step\scr_enemy_bs_step.gml
+Converted description /// @description  scr_enemy_bs_step(move speed, move time, wait time, friction);/// @param move speed
+/// @param  move time
+/// @param  wait time
+/// @param  friction
+
+Converting GML script: ${project_dir}\scripts\scr_track_coords\scr_track_coords.gml
+Converted description /// @description  scr_track_coords(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\scr_track_player\scr_track_player.gml
+Converted description /// @description  scr_track_player();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_see_player\scr_enemy_see_player.gml
+Converted description /// @description  scr_enemy_see_player(range, inside);/// @param range
+/// @param  inside
+
+Converting GML script: ${project_dir}\scripts\scr_create_enemy_proj\scr_create_enemy_proj.gml
+Converted description /// @description  scr_create_enemy_proj(x, y, obj id, dir, spd, life, dmg, ap, sprite, img index, img angle, img scale, rotation);/// @param x
+/// @param  y
+/// @param  obj id
+/// @param  dir
+/// @param  spd
+/// @param  life
+/// @param  dmg
+/// @param  ap
+/// @param  sprite
+/// @param  img index
+/// @param  img angle
+/// @param  img scale
+/// @param  rotation
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_move\scr_enemy_move.gml
+Converted description /// @description scr_enemy_move();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_overlap\scr_enemy_overlap.gml
+Converted description /// @description  scr_enemy_overlap();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_step\scr_enemy_step.gml
+Converted description /// @description  scr_enemy_step();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_step_noface\scr_enemy_step_noface.gml
+Converted description /// @description  scr_enemy_step_noface();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_init\scr_enemy_init.gml
+Converted description /// @description  scr_enemy_init(name, hp, def, monster level, xp, hit sound, death sound, flying);/// @param name
+/// @param  hp
+/// @param  def
+/// @param  monster level
+/// @param  xp
+/// @param  hit sound
+/// @param  death sound
+/// @param  flying
+
+Converting GML script: ${project_dir}\scripts\draw_shadow\draw_shadow.gml
+Converted description /// @description draw_shadow(x offset, y offset, scale);/// @param x offset
+/// @param  y offset
+/// @param  scale
+
+Converting GML script: ${project_dir}\scripts\draw_shadow_auto\draw_shadow_auto.gml
+Converted description /// @description draw_shadow_auto(sprite index);/// @param sprite index
+
+Converting GML script: ${project_dir}\scripts\scr_en_drawself\scr_en_drawself.gml
+Converted description /// @description scr_en_drawself();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_check_range\scr_enemy_check_range.gml
+Converted description /// @description  scr_enemy_check_range(range, inside);/// @param range
+/// @param  inside
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_death\scr_enemy_death.gml
+Converted description /// @description  scr_enemy_death
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_death_fx\scr_enemy_death_fx.gml
+Converted description /// @description  scr_enemy_death_fx();
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_range_init\scr_enemy_range_init.gml
+Converted description /// @description  scr_enemy_range_init(chase range, attack range, flee range);/// @param chase range
+/// @param  attack range
+/// @param  flee range
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_run_tl\scr_enemy_run_tl.gml
+Converted description /// @description  scr_enemy_run_tl(timeline id);/// @param timeline id
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_states_init\scr_enemy_states_init.gml
+Converted description /// @description  scr_enemy_states_init
+
+Converting GML script: ${project_dir}\scripts\scr_set_fx\scr_set_fx.gml
+Converted description /// @description scr_set_fx(color 1, color 2, color 3, color 4, color 5, sleep, eq time, eq level);/// @param color 1
+/// @param  color 2
+/// @param  color 3
+/// @param  color 4
+/// @param  color 5
+/// @param  sleep
+/// @param  eq time
+/// @param  eq level
+
+Converting GML script: ${project_dir}\scripts\scr_stop_animation\scr_stop_animation.gml
+Converted description /// @description  scr_stop_animaton();
+
+Converting GML script: ${project_dir}\scripts\scr_restore_hp\scr_restore_hp.gml
+Converted description /// @description scr_restore_hp(amount, sound, x, y);/// @param amount
+/// @param  sound
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\draw_text_custom\draw_text_custom.gml
+Converted description /// @description  draw_text_custom(x,y,string,alpha)/// @param x
+/// @param y
+/// @param string
+/// @param alpha
+
+Converting GML script: ${project_dir}\scripts\string_extract\string_extract.gml
+Converted description /// @description  string_extract(str,sep,ind)/// @param str
+/// @param sep
+/// @param ind
+
+Converting GML script: ${project_dir}\scripts\draw_text_outline\draw_text_outline.gml
+Converted description /// @description draw_text_outline(x,y,str,outwidth,outcol,outfidelity)/// @param x
+/// @param y
+/// @param str
+/// @param outwidth
+/// @param outcol
+/// @param outfidelity
+
+Converting GML script: ${project_dir}\scripts\draw_text_outline_ext\draw_text_outline_ext.gml
+Converted description /// @description draw_text_outline_ext(x,y,str,outwidth,outcol,outfidelity,xscale,yscale,angle)/// @param x
+/// @param y
+/// @param str
+/// @param outwidth
+/// @param outcol
+/// @param outfidelity
+/// @param xscale
+/// @param yscale
+/// @param angle
+
+Converting GML script: ${project_dir}\scripts\scr_pause_toggle\scr_pause_toggle.gml
+Converted description /// @description scr_pause_toggle();
+
+Converting GML script: ${project_dir}\scripts\scr_pause_buttons\scr_pause_buttons.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description scr_pause_buttons();
+
+Converting GML script: ${project_dir}\scripts\scr_options_buttons1\scr_options_buttons1.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 50: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 50: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 56: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 17: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 17: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 50: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 50: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description scr_options_buttons1();
+
+Converting GML script: ${project_dir}\scripts\scr_options_buttons2\scr_options_buttons2.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 22: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description scr_options_buttons2();
+
+Converting GML script: ${project_dir}\scripts\scr_gamestats_menu\scr_gamestats_menu.gml
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description scr_gamestats_menu();
+
+Converting GML script: ${project_dir}\scripts\scr_enlasthit\scr_enlasthit.gml
+Converted description /// @description scr_enlasthit();
+
+Converting GML script: ${project_dir}\scripts\scr_wepdpscalc\scr_wepdpscalc.gml
+Converted description /// @description scr_wepdpscalc(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\scr_wepapscalc\scr_wepapscalc.gml
+Converted description /// @description scr_wepapscalc(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\scr_ind_create\scr_ind_create.gml
+Converted description /// @description scr_ind_create(x, y, input, color, vspeed);/// @param x
+/// @param  y
+/// @param  input
+/// @param  color
+/// @param  vspeed
+
+Converting GML script: ${project_dir}\scripts\scr_ind_create_ext\scr_ind_create_ext.gml
+Converted description /// @description scr_ind_create_ext(x, y, input, color, vspeed, lifetime);/// @param x
+/// @param  y
+/// @param  input
+/// @param  color
+/// @param  vspeed
+/// @param  lifetime
+
+Converting GML script: ${project_dir}\scripts\scr_list_rings\scr_list_rings.gml
+Converted description /// @description scr_list_rings();
+
+Converting GML script: ${project_dir}\scripts\scr_list_staves\scr_list_staves.gml
+Converted description /// @description scr_list_staves();
+
+Converting GML script: ${project_dir}\scripts\scr_list_bows\scr_list_bows.gml
+Converted description /// @description scr_list_bows();
+
+Converting GML script: ${project_dir}\scripts\scr_list_swords\scr_list_swords.gml
+Converted description /// @description scr_list_swords();
+
+Converting GML script: ${project_dir}\scripts\scr_list_light_a\scr_list_light_a.gml
+Converted description /// @description scr_list_light_a(); spr_items_40px
+
+Converting GML script: ${project_dir}\scripts\scr_list_mid_a\scr_list_mid_a.gml
+Converted description /// @description scr_list_mid_a(); spr_items_40px
+
+Converting GML script: ${project_dir}\scripts\scr_list_heavy_a\scr_list_heavy_a.gml
+Converted description /// @description scr_list_mid_a(); spr_items_40px
+
+Converting GML script: ${project_dir}\scripts\inv_stat_equip\inv_stat_equip.gml
+Converted description /// @description inv_stat_equip(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\inv_stat_remove\inv_stat_remove.gml
+Converted description /// @description inv_stat_remove(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\inv_add_item\inv_add_item.gml
+Converted description /// @description inv_add_item(x,y,item);/// @param x
+/// @param y
+/// @param item
+
+Converting GML script: ${project_dir}\scripts\inv_add_itemstack\inv_add_itemstack.gml
+Converted description /// @description inv_add_itemstack(x,y,item,amount);/// @param x
+/// @param y
+/// @param item
+/// @param amount
+
+Converting GML script: ${project_dir}\scripts\inv_pickup_item\inv_pickup_item.gml
+Converted description /// @description  inv_pickup_item(item);/// @param item
+
+Converting GML script: ${project_dir}\scripts\inv_remove_item\inv_remove_item.gml
+Converted description /// @description inv_remove_item(x,y);/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\inv_delete_item\inv_delete_item.gml
+Converted description /// @description inv_delete_item(x,y);/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\inv_remove_itemstack\inv_remove_itemstack.gml
+Converted description /// @description inv_remove_itemstack(x,y);/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\inv_swap_itemtype\inv_swap_itemtype.gml
+Converted description /// @description inv_swap_itemtype(x,y,item to add);/// @param x
+/// @param y
+/// @param item to add
+
+Converting GML script: ${project_dir}\scripts\inv_swap_itemquantity\inv_swap_itemquantity.gml
+Converted description /// @description inv_swap_itemquantity(x,y,quantity to add);/// @param x
+/// @param y
+/// @param quantity to add
+
+Converting GML script: ${project_dir}\scripts\inv_drop_mouseitem\inv_drop_mouseitem.gml
+Converted description /// @description inv_drop_mouseitem();
+
+Converting GML script: ${project_dir}\scripts\inv_display_itembox\inv_display_itembox.gml
+Converted description /// @description inv_display_itembox(item, current x, current y);/// @param item
+/// @param  current x
+/// @param  current y
+
+Converting GML script: ${project_dir}\scripts\inv_display_itemdesc\inv_display_itemdesc.gml
+Converted description /// @description inv_display_itemdesc(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\inv_display_iteminfo\inv_display_iteminfo.gml
+Converted description /// @description inv_display_iteminfo(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\inv_display_weaponstats\inv_display_weaponstats.gml
+Converted description /// @description inv_display_weaponstats(item_id);/// @param item_id
+
+Converting GML script: ${project_dir}\scripts\inv_display_skillstats\inv_display_skillstats.gml
+Converted description /// @description inv_display_skillstats(item_id);/// @param item_id
+
+Converting GML script: ${project_dir}\scripts\inv_display_consstats\inv_display_consstats.gml
+Converted description /// @description inv_display_consstats(item_id);/// @param item_id
+
+Converting GML script: ${project_dir}\scripts\inv_display_itemstats\inv_display_itemstats.gml
+Converted description /// @description inv_display_itemstats(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\scr_wlist_staves\scr_wlist_staves.gml
+Converted description /// @description scr_wlist_staves();
+
+Converting GML script: ${project_dir}\scripts\scr_wlist_bows\scr_wlist_bows.gml
+Converted description /// @description scr_wlist_bows();
+
+Converting GML script: ${project_dir}\scripts\scr_wlist_swords\scr_wlist_swords.gml
+Converted description /// @description  scr_wlist_swords();
+
+Converting GML script: ${project_dir}\scripts\scr_alist_spellbooks\scr_alist_spellbooks.gml
+Converted description /// @description scr_alist_spellbooks();
+
+Converting GML script: ${project_dir}\scripts\inv_draw_itemdesc\inv_draw_itemdesc.gml
+Converted description /// @description  inv_draw_itemdesc(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\inv_draw_iteminfo\inv_draw_iteminfo.gml
+Converted description /// @description  inv_draw_iteminfo(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\inv_draw_itemstats\inv_draw_itemstats.gml
+Converted description /// @description inv_draw_itemstats(item id, starting height);/// @param item id
+/// @param  starting height
+
+Converting GML script: ${project_dir}\scripts\inv_draw_statname\inv_draw_statname.gml
+Converted description /// @description  inv_draw_statname(stat number);/// @param stat number
+
+Converting GML script: ${project_dir}\scripts\inv_draw_weaponstats\inv_draw_weaponstats.gml
+Converted description /// @description inv_draw_weaponstats(item id, starting height);/// @param item id
+/// @param  starting height
+
+Converting GML script: ${project_dir}\scripts\inv_draw_consinfo\inv_draw_consinfo.gml
+Converted description /// @description inv_draw_consinfo(item id, starting height);/// @param item id
+/// @param  starting height
+
+Converting GML script: ${project_dir}\scripts\inv_item_has_stats\inv_item_has_stats.gml
+Converted description /// @description  inv_item_has_stats(item_id);/// @param item_id
+
+Converting GML script: ${project_dir}\scripts\inv_calc_itemdesc\inv_calc_itemdesc.gml
+Converted description /// @description  inv_calc_itemdesc(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\inv_calc_itemstats\inv_calc_itemstats.gml
+Converted description /// @description inv_calc_itemstats(item id, starting height);/// @param item id
+/// @param  starting height
+
+Converting GML script: ${project_dir}\scripts\inv_calc_weaponstats\inv_calc_weaponstats.gml
+Converted description /// @description inv_calc_weaponstats(item id, starting height);/// @param item id
+/// @param  starting height
+
+Converting GML script: ${project_dir}\scripts\inv_calc_consinfo\inv_calc_consinfo.gml
+Converted description /// @description  inv_calc_consinfo(item id, starting height);/// @param item id
+/// @param  starting height
+
+Converting GML script: ${project_dir}\scripts\inv_comp_itemstats\inv_comp_itemstats.gml
+Converted description /// @description inv_comp_itemstats(item id, starting height, current y);/// @param item id
+/// @param  starting height
+/// @param  current y
+
+Converting GML script: ${project_dir}\scripts\inv_comp_weaponstats\inv_comp_weaponstats.gml
+Converted description /// @description inv_comp_weaponstats(item id, starting height);/// @param item id
+/// @param  starting height
+
+Converting GML script: ${project_dir}\scripts\inv_comparison\inv_comparison.gml
+Converted description /// @description inv_comparison(equipment id, value 1, value 2);/// @param equipment id
+/// @param  value 1
+/// @param  value 2
+
+Converting GML script: ${project_dir}\scripts\inv_comparison_aps\inv_comparison_aps.gml
+Converted description /// @description inv_comparison_aps(equipment id, value 1);/// @param equipment id
+/// @param  value 1
+
+Converting GML script: ${project_dir}\scripts\inv_comparison_dmg\inv_comparison_dmg.gml
+Converted description /// @description inv_comparison_dmg(equipment id, value 1);/// @param equipment id
+/// @param  value 1
+
+Converting GML script: ${project_dir}\scripts\inv_comparison_crit\inv_comparison_crit.gml
+Converted description /// @description inv_comparison_crit(equipment id, value 1);/// @param equipment id
+/// @param  value 1
+
+Converting GML script: ${project_dir}\scripts\inv_display_weaponstats_old\inv_display_weaponstats_old.gml
+Converted description /// @description inv_display_weaponstats(item id);/// @param item id
+
+Converting GML script: ${project_dir}\scripts\scr_create_loot_cont\scr_create_loot_cont.gml
+Converted description /// @description scr_create_loot_cont(x, y, container object, sound, rarity);/// @param x
+/// @param  y
+/// @param  container object
+/// @param  sound
+/// @param  rarity
+
+Converting GML script: ${project_dir}\scripts\scr_orbit_create\scr_orbit_create.gml
+Converted description /// @description scr_orbit_create(starting angle,radius,speed);/// @param starting angle
+/// @param radius
+/// @param speed
+
+Converting GML script: ${project_dir}\scripts\scr_orbit_create2\scr_orbit_create2.gml
+Converted description /// @description scr_orbit_create2(speed,starting dir,radius,point to orbit around);/// @param speed
+/// @param starting dir
+/// @param radius
+/// @param point to orbit around
+
+Converting GML script: ${project_dir}\scripts\scr_orbit_step\scr_orbit_step.gml
+Converted description /// @description scr_orbit_step(point to orbit around);/// @param point to orbit around
+
+Converting GML script: ${project_dir}\scripts\scr_orbit_step2\scr_orbit_step2.gml
+Converted description /// @description scr_orbit_step2(Point to orbit around);/// @param Point to orbit around
+
+Converting GML script: ${project_dir}\scripts\scr_pl_auto\scr_pl_auto.gml
+Converted description /// @description scr_pl_auto(sprite when respawning);/// @param sprite when respawning
+
+Converting GML script: ${project_dir}\scripts\scr_pl_init\scr_pl_init.gml
+Converted description /// @description  scr_pl_init(pbcolor1,pbcolor2,pbcolor3);/// @param pbcolor1
+/// @param pbcolor2
+/// @param pbcolor3
+
+Converting GML script: ${project_dir}\scripts\scr_pl_control\scr_pl_control.gml
+Converted description /// @description scr_pl_control();
+
+Converting GML script: ${project_dir}\scripts\scr_pl_manage\scr_pl_manage.gml
+Converted description /// @description scr_pl_manage();
+
+Converting GML script: ${project_dir}\scripts\scr_pl_cont_int\scr_pl_cont_int.gml
+Converted description /// @description  scr_pl_cont_int
+
+Converting GML script: ${project_dir}\scripts\scr_pl_portal_int\scr_pl_portal_int.gml
+Converted description /// @description  scr_pl_portal_int
+
+Converting GML script: ${project_dir}\scripts\scr_pl_prep\scr_pl_prep.gml
+Converted description /// @description scr_pl_prep(time needed to prepare skill use);/// @param time needed to prepare skill use
+
+Converting GML script: ${project_dir}\scripts\scr_pl_death\scr_pl_death.gml
+Converted description /// @description scr_pl_death(stil sprite);/// @param stil sprite
+
+Converting GML script: ${project_dir}\scripts\scr_pl_death_fx\scr_pl_death_fx.gml
+Converted description /// @description scr_pl_death_fx();
+
+Converting GML script: ${project_dir}\scripts\scr_pl_keys\scr_pl_keys.gml
+Converted description /// @description scr_pl_keys();
+
+Converting GML script: ${project_dir}\scripts\scr_pl_draw\scr_pl_draw.gml
+Converted description /// @description  scr_pl_draw();
+
+Converting GML script: ${project_dir}\scripts\scr_animspeed\scr_animspeed.gml
+Converted description /// @description scr_animspeed();
+
+Converting GML script: ${project_dir}\scripts\scr_respawn\scr_respawn.gml
+Converted builtin - line 21: view_xview[0] = obj_camera.x - (view_wview/2) -> __view_set( e__VW.XView, 0, obj_camera.x - (view_wview/2) )
+Converted builtin - line 22: view_yview[0] = obj_camera.y - (view_hview/2) -> __view_set( e__VW.YView, 0, obj_camera.y - (view_hview/2) )
+Converted builtin - line 42: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 45: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 48: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 51: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 43: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 46: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 49: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 52: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description scr_respawn();
+Converted builtin - line 21: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 22: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\scripts\scr_create_pl_proj\scr_create_pl_proj.gml
+Converted description /// @description scr_create_pl_proj(x, y, proj type, weapon id, direction, volume);/// @param x
+/// @param  y
+/// @param  proj type
+/// @param  weapon id
+/// @param  direction
+/// @param  volume
+
+Converting GML script: ${project_dir}\scripts\scr_shoot_azurebow\scr_shoot_azurebow.gml
+Converted description /// @description scr_shoot_azurebow(x, y, proj type, weapon id, direction, volume);/// @param x
+/// @param  y
+/// @param  proj type
+/// @param  weapon id
+/// @param  direction
+/// @param  volume
+
+Converting GML script: ${project_dir}\scripts\scr_mage_fire\scr_mage_fire.gml
+Converted description /// @description scr_mage_fire(weapon id);/// @param weapon id
+
+Converting GML script: ${project_dir}\scripts\scr_hunter_fire\scr_hunter_fire.gml
+Converted description /// @description scr_mage_fire(weapon id);/// @param weapon id
+
+Converting GML script: ${project_dir}\scripts\scr_mk_fire\scr_mk_fire.gml
+Converted description /// @description scr_mk_fire(weapon id);/// @param weapon id
+
+Converting GML script: ${project_dir}\scripts\scr_cleric_cast\scr_cleric_cast.gml
+Converted description /// @description scr_cleric_cast
+
+Converting GML script: ${project_dir}\scripts\scr_cformat\scr_cformat.gml
+Converted description /// @description rgb_to_bgr(Colour)/// @param Colour
+
+Converting GML script: ${project_dir}\scripts\scr_zunsound\scr_zunsound.gml
+Converted description /// @description scr_zunsound(sound id);/// @param sound id
+
+Converting GML script: ${project_dir}\scripts\scr_sound_plbullet\scr_sound_plbullet.gml
+Converted description /// @description scr_sound_plbullet(sound id);/// @param sound id
+
+Converting GML script: ${project_dir}\scripts\scr_zunsound_ui\scr_zunsound_ui.gml
+Converted description /// @description scr_zunsound_ui(sound id);/// @param sound id
+
+Converting GML script: ${project_dir}\scripts\instance_destroy_ez\instance_destroy_ez.gml
+Converted description /// @description instance_destroy_ez(instance to destroy);/// @param instance to destroy
+
+Converting GML script: ${project_dir}\scripts\scr_sound\scr_sound.gml
+Converted description /// @description  scr_sound(sound id, volume, min pitch, max pitch);/// @param sound id
+/// @param  volume
+/// @param  min pitch
+/// @param  max pitch
+
+Converting GML script: ${project_dir}\scripts\scr_junsound\scr_junsound.gml
+Converted description /// @description  scr_junsound(sound id, volume, min pitch, max pitch);/// @param sound id
+/// @param  volume
+/// @param  min pitch
+/// @param  max pitch
+
+Converting GML script: ${project_dir}\scripts\play_sound_vol\play_sound_vol.gml
+Converted description /// @description  play_sound_vol(sound id, volume)/// @param sound id
+/// @param  volume
+
+Converting GML script: ${project_dir}\scripts\scr_message_add\scr_message_add.gml
+Converted description /// @description  scr_message_add(message, color);/// @param message
+/// @param  color
+
+Converting GML script: ${project_dir}\scripts\scr_create_lt1\scr_create_lt1.gml
+Converted description /// @description  scr_create_lt1();
+
+Converting GML script: ${project_dir}\scripts\scr_roll_itemid\scr_roll_itemid.gml
+Converted description /// @description  scr_roll_itemid();
+
+Converting GML script: ${project_dir}\scripts\scr_roll_itemq\scr_roll_itemq.gml
+Converted description /// @description  scr_roll_itemq(lootbag chance, seq. items chance);/// @param lootbag chance
+/// @param  seq. items chance
+
+Converting GML script: ${project_dir}\scripts\scr_create_lootbag\scr_create_lootbag.gml
+Converted description /// @description  scr_create_lootbag(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\scr_status_enum\scr_status_enum.gml
+Converted description /// @description  scr_status_enum();
+
+Converting GML script: ${project_dir}\scripts\scr_status_init\scr_status_init.gml
+Converted description /// @description  scr_status_init();
+
+Converting GML script: ${project_dir}\scripts\scr_status_player_step\scr_status_player_step.gml
+Converted description /// @description  scr_status_player_step();
+
+Converting GML script: ${project_dir}\scripts\scr_status_enemy_step\scr_status_enemy_step.gml
+Converted description /// @description  scr_status_enemy_step();
+
+Converting GML script: ${project_dir}\scripts\scr_status_shift\scr_status_shift.gml
+Converted description /// @description  scr_status_shift(starting pos);/// @param starting pos
+
+Converting GML script: ${project_dir}\scripts\scr_status_player_draw\scr_status_player_draw.gml
+Converted description /// @description  scr_status_player_draw(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\scr_status_enemy_draw\scr_status_enemy_draw.gml
+Converted description /// @description  scr_status_enemy_draw(x, y);/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\scr_status_find\scr_status_find.gml
+Converted description /// @description  scr_status_find(status to find, object to check);/// @param status to find
+/// @param  object to check
+
+Converting GML script: ${project_dir}\scripts\scr_status_remove\scr_status_remove.gml
+Converted description /// @description  scr_status_remove(status to remove, object);/// @param status to remove
+/// @param  object
+
+Converting GML script: ${project_dir}\scripts\scr_status_find_id\scr_status_find_id.gml
+Converted description /// @description  scr_status_find_id(status to find, object to check);/// @param status to find
+/// @param  object to check
+
+Converting GML script: ${project_dir}\scripts\scr_status_inflict\scr_status_inflict.gml
+Converted description /// @description  scr_status_inflict(status, target, duration, chance);/// @param status
+/// @param  target
+/// @param  duration
+/// @param  chance
+
+Converting GML script: ${project_dir}\scripts\scr_status_getimage\scr_status_getimage.gml
+Converted description /// @description  scr_status_getimage(status id);/// @param status id
+
+Converting GML script: ${project_dir}\scripts\scr_add_normal_floor\scr_add_normal_floor.gml
+Converted description /// @description  scr_add_normal_floor();
+
+Converting GML script: ${project_dir}\scripts\scr_auto_split\scr_auto_split.gml
+Converted description /// @description  scr_auto_split();
+
+Converting GML script: ${project_dir}\scripts\scr_check_part_wh\scr_check_part_wh.gml
+Converted description /// @description scr_check_part_wh(part width, part height);/// @param part width
+/// @param  part height
+
+Converting GML script: ${project_dir}\scripts\scr_choose_start_end\scr_choose_start_end.gml
+Converted description /// @description  scr_choose_start_end();
+
+Converting GML script: ${project_dir}\scripts\scr_corr_init\scr_corr_init.gml
+Converted description /// @description  scr_corr_init(corridor width);/// @param corridor width
+
+Converting GML script: ${project_dir}\scripts\scr_corr_walls\scr_corr_walls.gml
+Converted description /// @description  scr_corr_walls();
+
+Converting GML script: ${project_dir}\scripts\scr_ent_init\scr_ent_init.gml
+Converted description /// @description  scr_ent_init(min enemy dens, max enemy dens, enemy spawn limit, chest chance);/// @param min enemy dens
+/// @param  max enemy dens
+/// @param  enemy spawn limit
+/// @param  chest chance
+
+Converting GML script: ${project_dir}\scripts\scr_es_system_init_p1\scr_es_system_init_p1.gml
+Converted description /// @description  scr_es_system_init_p1(unique enemies);/// @param unique enemies
+
+Converting GML script: ${project_dir}\scripts\scr_es_system_init_p2\scr_es_system_init_p2.gml
+Converted description /// @description  scr_es_system_init_p2();
+
+Converting GML script: ${project_dir}\scripts\scr_floor_init\scr_floor_init.gml
+Converted description /// @description  scr_floor_init(floor width, floor height, tile size, offset x, offset y, min room h ratio, min room v ratio, iterations);/// @param floor width
+/// @param  floor height
+/// @param  tile size
+/// @param  offset x
+/// @param  offset y
+/// @param  min room h ratio
+/// @param  min room v ratio
+/// @param  iterations
+
+Converting GML script: ${project_dir}\scripts\scr_measure_cbox\scr_measure_cbox.gml
+Converted description /// @description  scr_measure_cbox(corridor id)/// @param corridor id
+
+Converting GML script: ${project_dir}\scripts\scr_measure_pbox\scr_measure_pbox.gml
+Converted description /// @description  scr_measure_pbox(partition id)/// @param partition id
+
+Converting GML script: ${project_dir}\scripts\scr_Optimise_Init\scr_Optimise_Init.gml
+Converted description /// @description scr_Optimise_Init(object)/// @param object
+
+Converting GML script: ${project_dir}\scripts\scr_Optimise_Object\scr_Optimise_Object.gml
+Converted description /// @description scr_Optimise_Object(object);/// @param object
+
+Converting GML script: ${project_dir}\scripts\scr_room_walls\scr_room_walls.gml
+Converted description /// @description  scr_room_walls();
+
+Converting GML script: ${project_dir}\scripts\scr_rooms_init\scr_rooms_init.gml
+Converted description /// @description  scr_rooms_init(min room width, min room height, aspect ratio, part edge dis);/// @param min room width
+/// @param  min room height
+/// @param  aspect ratio
+/// @param  part edge dis
+
+Converting GML script: ${project_dir}\scripts\scr_spawn_chests\scr_spawn_chests.gml
+Converted description /// @description  scr_spawn_chests(room id, chest entity id);/// @param room id
+/// @param  chest entity id
+
+Converting GML script: ${project_dir}\scripts\scr_spawn_enemy_id\scr_spawn_enemy_id.gml
+Converted description /// @description  scr_spawn_enemy_id();
+
+Converting GML script: ${project_dir}\scripts\scr_spawn_enemy_pos\scr_spawn_enemy_pos.gml
+Converted description /// @description  scr_spawn_enemy_pos(room id, enemy entity id);/// @param room id
+/// @param  enemy entity id
+
+Converting GML script: ${project_dir}\scripts\scr_spawn_portals\scr_spawn_portals.gml
+Converted description /// @description  scr_spawn_portals(room id, portal entity id);/// @param room id
+/// @param  portal entity id
+
+Converting GML script: ${project_dir}\scripts\scr_spawn_rooms\scr_spawn_rooms.gml
+Converted description /// @description  scr_spawn_rooms();
+
+Converting GML script: ${project_dir}\scripts\scr_split_part\scr_split_part.gml
+Converted description /// @description  scr_split_part(partition to split, partition to create);/// @param partition to split
+/// @param  partition to create
+
+Converting GML script: ${project_dir}\scripts\scr_tile_init\scr_tile_init.gml
+Converted description /// @description  scr_tile_init(tile depth);/// @param tile depth
+
+Converting GML script: ${project_dir}\scripts\scr_portal_drawtext\scr_portal_drawtext.gml
+Converted description /// @description  scr_portal_drawtext(destination name, level);/// @param destination name
+/// @param  level
+
+Converting GML script: ${project_dir}\scripts\scr_portal_step\scr_portal_step.gml
+Converted description /// @description  scr_portal_step();
+
+Converting GML script: ${project_dir}\scripts\scr_menu_create_start\scr_menu_create_start.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  scr_menu_create_start();
+
+Converting GML script: ${project_dir}\scripts\scr_menu_create_main\scr_menu_create_main.gml
+Converted builtin - line 62: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  scr_menu_create_main();
+
+Converting GML script: ${project_dir}\scripts\scr_menu_create_charlist\scr_menu_create_charlist.gml
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 22: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 25: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 22: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 25: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  scr_menu_create_charlist();
+
+Converting GML script: ${project_dir}\scripts\scr_menu_create_charcreate_s1\scr_menu_create_charcreate_s1.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 28: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 39: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 50: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 29: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 40: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 51: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  scr_menu_create_charcreate_s1();
+
+Converting GML script: ${project_dir}\scripts\scr_menu_create_chardelete\scr_menu_create_chardelete.gml
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  scr_menu_create_chardelete();
+
+Converting GML script: ${project_dir}\scripts\scr_charbutton_str\scr_charbutton_str.gml
+Converted description /// @description scr_charbutton_str(char id);/// @param char id
+
+Converting GML script: ${project_dir}\scripts\scr_charpanel_str\scr_charpanel_str.gml
+Converted description /// @description scr_charpanel_str(char id);/// @param char id
+
+Converting GML script: ${project_dir}\scripts\scr_class_str\scr_class_str.gml
+Converted description /// @description scr_class_str(class id);/// @param class id
+
+Converting GML script: ${project_dir}\scripts\scr_gamemode_str\scr_gamemode_str.gml
+Converted description /// @description scr_gamemode_str(char id);/// @param char id
+
+Converting GML script: ${project_dir}\scripts\scr_charbutton_create\scr_charbutton_create.gml
+Converted description /// @description  scr_charbutton_create(button id, x, y);/// @param button id
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\scr_charslot_scroll_up\scr_charslot_scroll_up.gml
+Converted description /// @description scr_charslot_scroll_up();
+
+Converting GML script: ${project_dir}\scripts\scr_charslot_scroll_down\scr_charslot_scroll_down.gml
+Converted description /// @description scr_charslot_scroll_down();
+
+Converting GML script: ${project_dir}\scripts\scr_menu_init\scr_menu_init.gml
+Converted description /// @description  scr_menu_init();
+
+Converting GML script: ${project_dir}\scripts\scr_button_create\scr_button_create.gml
+Converted description /// @description  scr_button_create(button id, x, y, width, height, text, function, sprite);/// @param button id
+/// @param  x
+/// @param  y
+/// @param  width
+/// @param  height
+/// @param  text
+/// @param  function
+/// @param  sprite
+
+Converting GML script: ${project_dir}\scripts\scr_button_int\scr_button_int.gml
+Converted description /// @description  scr_button_int(button id);/// @param button id
+
+Converting GML script: ${project_dir}\scripts\scr_draw_menu_name\scr_draw_menu_name.gml
+Converted description /// @description  scr_draw_menu_name();
+
+Converting GML script: ${project_dir}\scripts\scr_char_init\scr_char_init.gml
+Converted description /// @description  scr_char_init();
+
+Converting GML script: ${project_dir}\scripts\scr_char_delete\scr_char_delete.gml
+Converted description /// @description  scr_char_delete(id);/// @param id
+
+Converting GML script: ${project_dir}\scripts\scr_char_reset\scr_char_reset.gml
+Converted description /// @description  scr_char_reset();
+
+Converting GML script: ${project_dir}\scripts\scr_filename_str\scr_filename_str.gml
+Converted description /// @description  scr_filename_str(id);/// @param id
+
+Converting GML script: ${project_dir}\scripts\scr_char_create\scr_char_create.gml
+Converted description /// @description  scr_char_create();
+
+Converting GML script: ${project_dir}\scripts\scr_char_create_save\scr_char_create_save.gml
+Converted description /// @description  scr_char_create_save(char id);/// @param char id
+
+Converting GML script: ${project_dir}\scripts\scr_char_update_save\scr_char_update_save.gml
+Converted description /// @description  scr_char_update_save(char id);/// @param char id
+
+Converting GML script: ${project_dir}\scripts\scr_char_load_list\scr_char_load_list.gml
+Converted description /// @description  scr_char_load_list();
+
+Converting GML script: ${project_dir}\scripts\scr_char_load_single\scr_char_load_single.gml
+Converted description /// @description  scr_char_load_single();
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\scripts\scr_char_load_count\scr_char_load_count.gml
+Converted description /// @description  scr_char_load_count();
+
+Converting GML script: ${project_dir}\scripts\instance_furthest_range\instance_furthest_range.gml
+Converted description /// @description  instance_furthest_range( x, y, obj, radius );/// @param  x
+/// @param  y
+/// @param  obj
+/// @param  radius
+
+Converting GML script: ${project_dir}\scripts\scr_enemy_cancel_tl\scr_enemy_cancel_tl.gml
+Converted description /// @description  scr_enemy_cancel_tl(reset tl, image speed, image index)/// @param reset tl
+/// @param  image speed
+/// @param  image index
+
+Converting GML script: ${project_dir}\scripts\scr_update_stat_total\scr_update_stat_total.gml
+Converted description /// @description  scr_update_stat_total();
+
+Converting GML script: ${project_dir}\scripts\instance_nearest_range\instance_nearest_range.gml
+Converted description /// @description  instance_nearest_range( x, y, obj, radius );/// @param  x
+/// @param  y
+/// @param  obj
+/// @param  radius
+
+Converting GML script: ${project_dir}\scripts\instance_nearest_col\instance_nearest_col.gml
+Converted description /// @description  instance_nearest_col( x, y, obj);/// @param  x
+/// @param  y
+/// @param  obj
+
+Converting GML script: ${project_dir}\scripts\scr_frame_to_time\scr_frame_to_time.gml
+Converted description /// @description scr_frame_to_time(time in frames)/// @param time in frames
+
+Converting GML script: ${project_dir}\scripts\scr_shotgun_arc\scr_shotgun_arc.gml
+Converted description /// @description  scr_shotgun_arc(arc, bullet count);/// @param arc
+/// @param  bullet count
+
+Converting GML script: ${project_dir}\scripts\scr_round_tb\scr_round_tb.gml
+Converted description /// @description  scr_round_tb(object to avoid, padding);/// @param object to avoid
+/// @param  padding
+
+Converting GML script: ${project_dir}\scripts\scr_round_lr\scr_round_lr.gml
+Converted description /// @description  scr_round_lr(object to avoid, padding);/// @param object to avoid
+/// @param  padding
+
+Converting GML script: ${project_dir}\scripts\scr_pl_invis_alpha\scr_pl_invis_alpha.gml
+Converted description /// @description scr_pl_invis_alpha();
+
+Converting GML script: ${project_dir}\scripts\scr_motion_mimic\scr_motion_mimic.gml
+Converted description /// @description scr_motion_mimic(old x,old y,new x,new y);/// @param old x
+/// @param old y
+/// @param new x
+/// @param new y
+
+Converting GML script: ${project_dir}\scripts\scr_intercept_course_ext\scr_intercept_course_ext.gml
+Converted description /// @description scr_intercept_course_ext(origin,target,pspeed,tspeed,tdir);/// @param origin
+/// @param target
+/// @param pspeed
+/// @param tspeed
+/// @param tdir
+
+Converting GML script: ${project_dir}\scripts\scr_color_fade_step\scr_color_fade_step.gml
+Converted description /// @description scr_color_fade_step(increment,min,max);/// @param increment
+/// @param min
+/// @param max
+
+Converting GML script: ${project_dir}\scripts\scr_color_fade_init\scr_color_fade_init.gml
+Converted description /// @description scr_color_fade_init(color saturation);/// @param color saturation
+
+Converting GML script: ${project_dir}\scripts\scr_intercept_course\scr_intercept_course.gml
+Converted description /// @description scr_intercept_course(origin,target,pspeed);/// @param origin
+/// @param target
+/// @param pspeed
+
+Converting GML script: ${project_dir}\scripts\scr_clamp_pos\scr_clamp_pos.gml
+Converted description /// @description scr_clamp_pos();
+
+Converting GML script: ${project_dir}\scripts\scr_color_fade_draw\scr_color_fade_draw.gml
+Converted description /// @description scr_color_fade_draw(hue,saturation,luminosity)/// @param hue
+/// @param saturation
+/// @param luminosity
+
+Converting GML script: ${project_dir}\scripts\scr_cast_sprite\scr_cast_sprite.gml
+Converted description /// @description scr_cast_sprite(sprite);/// @param sprite
+
+Font fnt_itemname has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_itemdesc has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_itemflav has been converted to font family Open Sans (Extrabold Italic) - Font has been regenerated, small inconsistencies may occur
+Font fnt_itemcount has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_textlog has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_playername has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_playerbar has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_floatingtext has been converted to font family Segoe UI (Bold) - Font has been regenerated, small inconsistencies may occur
+!!! Font fnt_pause0 uses a font (pixelFJ8pt1) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_options1 uses a font (pixelFJ8pt1) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_options0 uses a font (pixelFJ8pt1) not installed on this system - Font has NOT been regenerated
+Font fnt_credits has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_menu_name has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_menu_button has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_menu_charname has been converted to font family Open Sans (Extrabold Italic) - Font has been regenerated, small inconsistencies may occur
+Font fnt_menu_charinfo has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_menu_charbutton has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_debug has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+Font fnt_portal has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+!!! Font fnt_interface1 uses a font (pixelmix) not installed on this system - Font has NOT been regenerated
+Font fnt_indicator has been converted to font family Open Sans (Extrabold) - Font has been regenerated, small inconsistencies may occur
+!!! Font fnt_lootbonusget uses a font (pixelFJ8pt1) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_bosslifecount uses a font (pixelmix) not installed on this system - Font has NOT been regenerated
+Font font23 has been converted to font family Arial (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\timelines\tl_skeleton\moment_60.gml
+Converted description /// @description  Fire and loop
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_warrior\moment_30.gml
+Converted description /// @description  Fire and animate
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_warrior\moment_45.gml
+Converted description /// @description  Animate
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_warrior\moment_90.gml
+Converted description /// @description  Loop
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_frostmage\moment_0.gml
+Converted description /// @description  Gain ammo
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_frostmage\moment_30.gml
+Converted description /// @description  Fire 3 times
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_frostmage\moment_45.gml
+Converted description /// @description  Animate
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_frostmage\moment_75.gml
+Converted description /// @description  Loop
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_archer\moment_15.gml
+Converted description /// @description  Animate
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_archer\moment_30.gml
+Converted description /// @description  Animate
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_archer\moment_60.gml
+Converted description /// @description  Fire
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_firemage\moment_0.gml
+Converted description /// @description  Gain ammo
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_firemage\moment_30.gml
+Converted description /// @description  Fire
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_firemage\moment_60.gml
+Converted description /// @description  Goto position 30
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_blastmage\moment_0.gml
+Converted description /// @description  Gain ammo
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_blastmage\moment_60.gml
+Converted description /// @description  Fire multiple times
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_blastmage\moment_70.gml
+Converted description /// @description  Animate
+
+Converting GML script: ${project_dir}\timelines\tl_skeletal_blastmage\moment_90.gml
+Converted description /// @description  Loop
+
+Converting GML script: ${project_dir}\objects\obj_gravestone\Create_0.gml
+Converted description /// @description  Isometric
+
+Converting GML script: ${project_dir}\objects\obj_entity_load\Create_0.gml
+Converted description /// @description  Initialize the entity loader
+
+Converting GML script: ${project_dir}\objects\obj_entity_load\Alarm_0.gml
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Deactivate far away entities
+
+Converting GML script: ${project_dir}\objects\obj_entity_load\Step_2.gml
+Converted description /// @description  Stay on the player
+
+Converting GML script: ${project_dir}\objects\obj_camera\Create_0.gml
+Converted builtin - line 12: view_xview[0] = x - (view_wview/2) -> __view_set( e__VW.XView, 0, x - (view_wview/2) )
+Converted builtin - line 13: view_yview[0] = y - (view_hview/2) -> __view_set( e__VW.YView, 0, y - (view_hview/2) )
+Converted description /// @description  Declare a variable that checks whether the view needs some shakin'
+Converted builtin - line 12: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_2.gml
+Converted description /// @description  Follow the player
+
+Converting GML script: ${project_dir}\objects\obj_camera\Step_0.gml
+Converted description /// @description  Shake!
+
+Converting GML script: ${project_dir}\objects\obj_hitbox\Draw_64.gml
+Converted builtin - line 4: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_levelup\Draw_75.gml
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_barrier\Destroy_0.gml
+Converted description /// @description  Fading effect
+
+Converting GML script: ${project_dir}\objects\obj_pl_staff_proj0\Step_0.gml
+Converted description /// @description  Perform standard tasks
+
+Converting GML script: ${project_dir}\objects\obj_pl_staff_proj0\Collision_ce6c6ea8-99b8-4d29-892d-47fa6e85b91e.gml
+Converted description /// @description  Hit the target
+
+Converting GML script: ${project_dir}\objects\obj_pl_staff_proj0\Collision_385c4c0c-9d6f-4a0c-8638-b1497cb14dcc.gml
+Converted description /// @description  We hit a wall-- destroy the projectile
+
+Converting GML script: ${project_dir}\objects\obj_pl_staff_proj0\Other_0.gml
+Converted description /// @description  We're outside of the room-- destroy the projectile
+
+Converting GML script: ${project_dir}\objects\obj_pl_mage\Create_0.gml
+Converted description /// @description  Initialize the player object
+
+Converting GML script: ${project_dir}\objects\obj_pl_mage\Step_0.gml
+Converted description /// @description  Do stuff every step
+
+Converting GML script: ${project_dir}\objects\obj_pl_mage\Draw_73.gml
+Converted description /// @description  Draw the status condition icons
+
+Converting GML script: ${project_dir}\objects\obj_pl_mage\Draw_0.gml
+Converted description /// @description  If the player is alive, draw its sprite
+
+Converting GML script: ${project_dir}\objects\obj_pl_hunter\Create_0.gml
+Converted description /// @description  Initialize the player object
+
+Converting GML script: ${project_dir}\objects\obj_pl_hunter\Step_0.gml
+Converted description /// @description  Do stuff every step
+
+Converting GML script: ${project_dir}\objects\obj_pl_hunter\Draw_73.gml
+Converted description /// @description  Draw the status condition icons
+
+Converting GML script: ${project_dir}\objects\obj_pl_hunter\Draw_0.gml
+Converted description /// @description  If the player is alive, draw its sprite
+
+Converting GML script: ${project_dir}\objects\obj_pl_mk\Create_0.gml
+Converted description /// @description  Initialize the player object
+
+Converting GML script: ${project_dir}\objects\obj_pl_mk\Step_0.gml
+Converted description /// @description  Do stuff every step
+
+Converting GML script: ${project_dir}\objects\obj_pl_mk\Draw_73.gml
+Converted description /// @description  Draw the status condition icons
+
+Converting GML script: ${project_dir}\objects\obj_pl_mk\Draw_0.gml
+Converted description /// @description  If the player is alive, draw its sprite
+
+Converting GML script: ${project_dir}\objects\obj_portal_parent\Create_0.gml
+Converted description /// @description  Set some variables
+
+Converting GML script: ${project_dir}\objects\obj_portal_parent\Step_0.gml
+Converted description /// @description  Isometric effect
+
+Converting GML script: ${project_dir}\objects\obj_portal_parent\Collision_beeba052-8fcc-432a-bb15-3437b5e67a2d.gml
+Converted description /// @description  Prevent overlap with other portals
+
+Converting GML script: ${project_dir}\objects\obj_portal_exit\Destroy_0.gml
+Converted description /// @description  Set the selected container to -1 to avoid errors
+
+Converting GML script: ${project_dir}\objects\obj_portal_exit\Step_0.gml
+Converted description /// @description  Auto stuff
+
+Converting GML script: ${project_dir}\objects\obj_portal_exit\Draw_73.gml
+Converted description /// @description  Draw the details of the destination
+
+Converting GML script: ${project_dir}\objects\obj_portal_exit\Draw_0.gml
+Converted description /// @description  Draw the sprite and its shadow
+
+Converting GML script: ${project_dir}\objects\obj_portal_next\Destroy_0.gml
+Converted description /// @description  Set the selected container to -1 to avoid errors
+
+Converting GML script: ${project_dir}\objects\obj_portal_next\Step_0.gml
+Converted description /// @description  Auto stuff
+
+Converting GML script: ${project_dir}\objects\obj_portal_next\Draw_73.gml
+Converted description /// @description  Draw the details of the destination
+
+Converting GML script: ${project_dir}\objects\obj_portal_next\Draw_0.gml
+Converted description /// @description  Draw the sprite and its shadow
+
+Converting GML script: ${project_dir}\objects\obj_portal_d0\Destroy_0.gml
+Converted description /// @description  Set the selected container to -1 to avoid errors
+
+Converting GML script: ${project_dir}\objects\obj_portal_d0\Step_0.gml
+Converted description /// @description  Auto stuff
+
+Converting GML script: ${project_dir}\objects\obj_portal_d0\Draw_73.gml
+Converted description /// @description  Draw the details of the destination
+
+Converting GML script: ${project_dir}\objects\obj_portal_d0\Draw_0.gml
+Converted description /// @description  Draw the sprite and its shadow
+
+Converting GML script: ${project_dir}\objects\obj_portal_d1\Destroy_0.gml
+Converted description /// @description  Set the selected container to -1 to avoid errors
+
+Converting GML script: ${project_dir}\objects\obj_portal_d1\Step_0.gml
+Converted description /// @description  Auto stuff
+
+Converting GML script: ${project_dir}\objects\obj_portal_d1\Draw_73.gml
+Converted description /// @description  Draw the details of the destination
+
+Converting GML script: ${project_dir}\objects\obj_portal_d1\Draw_0.gml
+Converted description /// @description  Draw the sprite and its shadow
+
+Converting GML script: ${project_dir}\objects\obj_lootbonustext\Draw_75.gml
+Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_bossbeattext\Draw_75.gml
+Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 13: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_indicator\Create_0.gml
+Converted description /// @description  Initialize the indicator
+
+Converting GML script: ${project_dir}\objects\obj_flash_fx\Draw_64.gml
+Converted builtin - line 3: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_part_attup0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_part_dexup0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_part_spdup0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_part_burn0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_part_poison0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_part_chill0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_part_slow0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_part_confused0\Draw_73.gml
+Converted description /// @description  Draw itself
+
+Converting GML script: ${project_dir}\objects\obj_inv\Create_0.gml
+Converted description /// @description  Initialize the item list
+
+Converting GML script: ${project_dir}\objects\obj_inv\Alarm_0.gml
+Converted description /// @description Get the alarm working
+
+Converting GML script: ${project_dir}\objects\obj_inv\Step_0.gml
+Converted description /// @description  Keyboard shortcuts
+
+Converting GML script: ${project_dir}\objects\obj_inv\Draw_75.gml
+Converted description /// @description  Draw the inventory
+
+Converting GML script: ${project_dir}\objects\obj_container\Create_0.gml
+Converted description /// @description  Initialize the container
+
+Converting GML script: ${project_dir}\objects\obj_container\Step_0.gml
+Converted description /// @description  Isometric effect
+
+Converting GML script: ${project_dir}\objects\obj_container\Collision_412113ff-ed8a-48a3-831f-cada4a6d2d24.gml
+Converted description /// @description  Prevent overlap with other containers
+
+Converting GML script: ${project_dir}\objects\obj_container\Collision_e9d69464-aa34-4b07-8157-7562862d5e67.gml
+Converted description /// @description  Prevent overlap with portals
+
+Converting GML script: ${project_dir}\objects\obj_container\Draw_0.gml
+Converted description /// @description  Draw item variables (DEBUG)/// @param DEBUG
+
+Converting GML script: ${project_dir}\objects\obj_lootbag\Destroy_0.gml
+Converted description /// @description  Set the selected container to -1 to avoid errors
+
+Converting GML script: ${project_dir}\objects\obj_lootbag\Step_0.gml
+Converted description /// @description  Auto stuff
+
+Converting GML script: ${project_dir}\objects\obj_lootbag\Draw_0.gml
+Converted description /// @description  Draw the sprite and its shadow
+
+Converting GML script: ${project_dir}\objects\obj_enemy_bullet_par\Create_0.gml
+Converted description /// @description  Define some variables
+
+Converting GML script: ${project_dir}\objects\obj_skeleton\Create_0.gml
+Converted description /// @description  Create some variables
+
+Converting GML script: ${project_dir}\objects\obj_skeleton\Destroy_0.gml
+Converted description /// @description  Give XP and drop loot when killed
+
+Converting GML script: ${project_dir}\objects\obj_skeleton\Step_0.gml
+Converted description /// @description  Run behaviour scripts
+
+Converting GML script: ${project_dir}\objects\obj_skeleton\Collision_8ad25165-0ee6-42f2-9f43-535e1cc2fc51.gml
+Converted description /// @description  Prevent overlapping with other enemies
+
+Converting GML script: ${project_dir}\objects\obj_skeleton\Draw_73.gml
+Converted description /// @description  Draw status and tracked x/y (debug)/// @param debug
+
+Converting GML script: ${project_dir}\objects\obj_skeleton\Draw_0.gml
+Converted description /// @description  Draw the sprite and shadow
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_warrior\Create_0.gml
+Converted description /// @description  Create some variables
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_warrior\Destroy_0.gml
+Converted description /// @description  Give XP and drop loot when killed
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_warrior\Step_0.gml
+Converted description /// @description  Run behaviour scripts
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_warrior\Collision_c66ac3c0-18e5-4e2f-aeb9-197ea84fa9b3.gml
+Converted description /// @description  Prevent overlapping with other enemies
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_warrior\Draw_73.gml
+Converted description /// @description  Draw status and tracked x/y (debug)/// @param debug
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_warrior\Draw_0.gml
+Converted description /// @description  Draw the sprite and shadow
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_archer\Create_0.gml
+Converted description /// @description  Create some variables
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_archer\Destroy_0.gml
+Converted description /// @description  Give XP and drop loot when killed
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_archer\Step_0.gml
+Converted description /// @description  Run behaviour scripts
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_archer\Collision_c779d897-9b9c-4474-ad57-86733dc4a9ab.gml
+Converted description /// @description  Prevent overlapping with other enemies
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_archer\Draw_73.gml
+Converted description /// @description  Draw status and tracked x/y (debug)/// @param debug
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_archer\Draw_0.gml
+Converted description /// @description  Draw the sprite and shadow
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_firemage\Create_0.gml
+Converted description /// @description  Create some variables
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_firemage\Destroy_0.gml
+Converted description /// @description  Give XP and drop loot when killed
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_firemage\Step_0.gml
+Converted description /// @description  Run behaviour scripts
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_firemage\Collision_045bbecb-2a6c-488d-921d-dc7a47033914.gml
+Converted description /// @description  Prevent overlapping with other enemies
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_firemage\Draw_73.gml
+Converted description /// @description  Draw status and tracked x/y (debug)/// @param debug
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_firemage\Draw_0.gml
+Converted description /// @description  Draw the sprite and shadow
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_frostmage\Create_0.gml
+Converted description /// @description  Create some variables
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_frostmage\Destroy_0.gml
+Converted description /// @description  Give XP and drop loot when killed
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_frostmage\Step_0.gml
+Converted description /// @description  Run behaviour scripts
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_frostmage\Collision_2a78a371-05fb-4171-a7aa-4ca10466ab77.gml
+Converted description /// @description  Prevent overlapping with other enemies
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_frostmage\Draw_73.gml
+Converted description /// @description  Draw status and tracked x/y (debug)/// @param debug
+
+Converting GML script: ${project_dir}\objects\obj_skeletal_frostmage\Draw_0.gml
+Converted description /// @description  Draw the sprite and shadow
+
+Converting GML script: ${project_dir}\objects\obj_abaghnid\Create_0.gml
+Converted description /// @description  Create some variables
+
+Converting GML script: ${project_dir}\objects\obj_abaghnid\Destroy_0.gml
+Converted description /// @description  Give XP and drop loot when killed
+
+Converting GML script: ${project_dir}\objects\obj_abaghnid\Step_0.gml
+Converted description /// @description  Run behaviour scripts
+
+Converting GML script: ${project_dir}\objects\obj_abaghnid\Collision_58490f78-d007-4654-b8f5-c9f917f16d8c.gml
+Converted description /// @description  Prevent overlapping with other enemies
+
+Converting GML script: ${project_dir}\objects\obj_abaghnid\Draw_73.gml
+Converted description /// @description  Draw status and tracked x/y (debug)/// @param debug
+
+Converting GML script: ${project_dir}\objects\obj_abaghnid\Draw_0.gml
+Converted description /// @description  Draw the sprite and shadow
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Create_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Create the grids
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Alarm_11.gml
+Converted description /// @description  The dungeon generation is complete!
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Alarm_5.gml
+Converted description /// @description  Spawn the entities
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Alarm_4.gml
+Converted description /// @description  Add the tiles
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Alarm_3.gml
+Converted description /// @description  Spawn wall objects
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Alarm_2.gml
+Converted description /// @description  Adding wall and floor tiles
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Alarm_1.gml
+Converted description /// @description  Spawn the rooms and pick a start/end room
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Alarm_0.gml
+Converted description /// @description  Split the floor into partitions and generate corridors
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Other_3.gml
+Converted description /// @description  Destroy the grid
+
+Converting GML script: ${project_dir}\objects\obj_dgen\Draw_75.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Loading screen
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Create_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Create the grids
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Alarm_11.gml
+Converted description /// @description  The dungeon generation is complete!
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Alarm_5.gml
+Converted description /// @description  Spawn the entities
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Alarm_4.gml
+Converted description /// @description  Add the tiles
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Alarm_3.gml
+Converted description /// @description  Spawn wall objects
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Alarm_2.gml
+Converted description /// @description  Adding wall and floor tiles
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Alarm_1.gml
+Converted description /// @description  Spawn the rooms and pick a start/end room
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Alarm_0.gml
+Converted description /// @description  Split the floor into partitions and generate corridors
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Other_3.gml
+Converted description /// @description  Destroy the grid
+
+Converting GML script: ${project_dir}\objects\obj_testing_gen\Draw_75.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Loading screen
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Create_0.gml
+Converted builtin - line 4: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Create the grids
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Alarm_11.gml
+Converted description /// @description  The dungeon generation is complete!
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Alarm_5.gml
+Converted description /// @description  Spawn the entities
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Alarm_4.gml
+Converted description /// @description  Add the tiles
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Alarm_3.gml
+Converted description /// @description  Spawn wall objects
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Alarm_2.gml
+Converted description /// @description  Adding wall and floor tiles
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Alarm_1.gml
+Converted description /// @description  Spawn the rooms and pick a start/end room
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Alarm_0.gml
+Converted description /// @description  Split the floor into partitions and generate corridors
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Other_3.gml
+Converted description /// @description  Destroy the grid
+
+Converting GML script: ${project_dir}\objects\obj_dgen_treasure\Draw_75.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Loading screen
+
+Converting GML script: ${project_dir}\objects\obj_dungeon0\Create_0.gml
+Converted description /// @description  Prepare the dungeon creation proces
+
+Converting GML script: ${project_dir}\objects\obj_dungeon1\Create_0.gml
+Converted description /// @description  Prepare the dungeon creation proces
+
+Converting GML script: ${project_dir}\objects\obj_menu_control\Create_0.gml
+Converted description /// @description  Initialize some variables
+
+Converting GML script: ${project_dir}\objects\obj_menu_control\Step_0.gml
+Converted builtin - line 12: background_x[0] -= 0.5 -> __background_set( e__BG.X, 0, __background_get( e__BG.X, 0 ) - (0.5) )
+Converted builtin - line 13: background_y[0] += 0.5 -> __background_set( e__BG.Y, 0, __background_get( e__BG.Y, 0 ) + (0.5) )
+Converted description /// @description  Debug keys
+
+Converting GML script: ${project_dir}\objects\obj_menu_control\Draw_0.gml
+Converted builtin - line 125: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 126: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 134: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 140: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 148: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 152: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 155: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 158: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 165: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 166: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 169: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 172: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 175: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 178: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 185: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 186: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 190: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 201: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 202: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 205: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 205: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 217: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 224: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 201: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 202: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 205: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 205: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 217: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Draw the menus
+
+Converting GML script: ${project_dir}\objects\obj_credits\Create_0.gml
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Credits text
+
+Converting GML script: ${project_dir}\objects\obj_credits\Step_0.gml
+Converted description /// @description  Scroll the credits + controls
+
+Converting GML script: ${project_dir}\objects\obj_control\Create_0.gml
+Converted builtin - line 300: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 301: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 380: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 383: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 386: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 389: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 381: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 384: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 387: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 390: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Player controls
+
+Converting GML script: ${project_dir}\objects\obj_control\Step_1.gml
+Converted description /// @description  global.Sleep
+
+Converting GML script: ${project_dir}\objects\obj_control\Step_0.gml
+Converted builtin - line 133: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 134: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Global variables
+
+Converting GML script: ${project_dir}\objects\obj_control\Other_3.gml
+Converted description /// @description  Destroy unused data structures and emitters
+
+Converting GML script: ${project_dir}\objects\obj_control\Draw_75.gml
+Converted builtin - line 13: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 128: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 137: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 140: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 143: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 146: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 149: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 23: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 128: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 137: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 137: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 140: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 140: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 143: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 143: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 146: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 146: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 149: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 149: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  GUI
+
+Converting GML script: ${project_dir}\objects\obj_log\Step_0.gml
+Converted description /// @description  Fade the messages away after a time limit
+
+Converting GML script: ${project_dir}\objects\obj_log\Draw_75.gml
+Converted builtin - line 11: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Draw the messages!
+
+Converting GML script: ${project_dir}\objects\obj_log\KeyPress_32.gml
+Converted description /// @description  Briefly show the last 5 messages (DEBUG)/// @param DEBUG
+
+Missing audiogroup for sound: 'snd_silence' - setting to default audio group
+Missing audiogroup for sound: 'snd_error' - setting to default audio group
+Missing audiogroup for sound: 'snd_hpdrink' - setting to default audio group
+Missing audiogroup for sound: 'snd_mpdrink' - setting to default audio group
+Missing audiogroup for sound: 'snd_itemmove' - setting to default audio group
+Missing audiogroup for sound: 'snd_levelup' - setting to default audio group
+Missing audiogroup for sound: 'snd_scroll' - setting to default audio group
+Missing audiogroup for sound: 'snd_timestop' - setting to default audio group
+Missing audiogroup for sound: 'snd_player_hit1' - setting to default audio group
+Missing audiogroup for sound: 'snd_player_death' - setting to default audio group
+Missing audiogroup for sound: 'snd_player_predeath' - setting to default audio group
+Missing audiogroup for sound: 'snd_prep_ready' - setting to default audio group
+Missing audiogroup for sound: 'snd_low_hp' - setting to default audio group
+Missing audiogroup for sound: 'snd_manashield_break' - setting to default audio group
+Missing audiogroup for sound: 'snd_manashield_ready' - setting to default audio group
+Missing audiogroup for sound: 'snd_spell_barrier' - setting to default audio group
+Missing audiogroup for sound: 'snd_spell_heal' - setting to default audio group
+Missing audiogroup for sound: 'snd_hit_barrier' - setting to default audio group
+Missing audiogroup for sound: 'snd_destroy_barrier' - setting to default audio group
+Missing audiogroup for sound: 'snd_attack_staff0' - setting to default audio group
+Missing audiogroup for sound: 'snd_attack_bow0' - setting to default audio group
+Missing audiogroup for sound: 'snd_attack_sword0' - setting to default audio group
+Missing audiogroup for sound: 'snd_hit_wall' - setting to default audio group
+Missing audiogroup for sound: 'snd_lootbag' - setting to default audio group
+Missing audiogroup for sound: 'snd_bagdrop0' - setting to default audio group
+Missing audiogroup for sound: 'snd_bagdrop1' - setting to default audio group
+Missing audiogroup for sound: 'snd_bagdrop2' - setting to default audio group
+Missing audiogroup for sound: 'snd_bagdrop3' - setting to default audio group
+Missing audiogroup for sound: 'snd_bagdrop4' - setting to default audio group
+Missing audiogroup for sound: 'snd_bagdrop5' - setting to default audio group
+Missing audiogroup for sound: 'snd_pause' - setting to default audio group
+Missing audiogroup for sound: 'snd_click0' - setting to default audio group
+Missing audiogroup for sound: 'snd_click1' - setting to default audio group
+Missing audiogroup for sound: 'snd_itemtake' - setting to default audio group
+Missing audiogroup for sound: 'snd_switchequip' - setting to default audio group
+Missing audiogroup for sound: 'snd_message' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_clickhold' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_chardelete' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_next' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_back' - setting to default audio group
+Missing audiogroup for sound: 'snd_menu_hover' - setting to default audio group
+Missing audiogroup for sound: 'snd_hit_default' - setting to default audio group
+Missing audiogroup for sound: 'snd_kill_default' - setting to default audio group
+Missing audiogroup for sound: 'snd_mimic' - setting to default audio group
+Missing audiogroup for sound: 'snd_hit_skeleton1' - setting to default audio group
+Missing audiogroup for sound: 'snd_kill_skeleton1' - setting to default audio group
+Missing audiogroup for sound: 'snd_eatk_sword1' - setting to default audio group
+Missing audiogroup for sound: 'snd_eatk_bow1' - setting to default audio group
+Missing audiogroup for sound: 'snd_eatk_fire1' - setting to default audio group
+Missing audiogroup for sound: 'snd_eatk_water1' - setting to default audio group
+Missing audiogroup for sound: 'snd_eatk_zap1' - setting to default audio group
+Missing audiogroup for sound: 'snd_status_blinded' - setting to default audio group
+Missing audiogroup for sound: 'snd_status_burned' - setting to default audio group
+Missing audiogroup for sound: 'snd_status_poisoned' - setting to default audio group
+Missing audiogroup for sound: 'snd_status_silenced' - setting to default audio group
+Missing audiogroup for sound: 'snd_status_slowed' - setting to default audio group
+Missing audiogroup for sound: 'snd_status_buff0' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_create_object_motion.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'tile/room_tile_clear.gml'
+Added compatibility script 'tile/tile_add.gml'
+Added compatibility script 'view/room_set_view.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

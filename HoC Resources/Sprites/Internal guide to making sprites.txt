@@ -1,0 +1,19 @@
+Guide to making sprites:
+
+30x30 .png:
+
+1) Make 8x8 sprite
+2) Resize IMAGE to 24x24
+3) Resize CANVAS to 30x30
+3) Add stroke (Outline object width 1, strength 4)
+4) Add shadow (Shadow radius 2, Offset -0.01 and -0.01, Shadow strength 0.5)
+5) Save
+
+40x40 .png:
+
+1) Make 8x8 sprite
+2) Resize IMAGE to 32x32
+3) Resize CANVAS to 40x40
+3) Add stroke (Outline object width 1, strength 4)
+4) Add shadow (Shadow radius 2, Offset -0.01 and -0.01, Shadow strength 0.5)
+5) Save

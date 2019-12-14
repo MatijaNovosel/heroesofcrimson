@@ -1,0 +1,2 @@
+/// @description Isometric
+depth = -y;
