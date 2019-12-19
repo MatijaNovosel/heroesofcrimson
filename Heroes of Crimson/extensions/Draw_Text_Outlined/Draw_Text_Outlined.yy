@@ -1,7 +1,7 @@
 {
     "id": "c5ad8efd-9613-4443-b56f-5cb714ea42d4",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "Draw_Text_Outlined",
     "IncludedResources": [
         "Scripts\\draw_text_outline"
@@ -20,6 +20,7 @@
     "copyToTargets": 9223372036854775807,
     "date": "2019-55-02 04:05:12",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         
@@ -34,14 +35,18 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": 9223372036854775807,
     "tvosProps": false,
     "tvosSystemFrameworkEntries": [
         
@@ -50,6 +55,7 @@
         
     ],
     "tvosclassname": "",
+    "tvosdelegatename": null,
     "tvosmaccompilerflags": "",
     "tvosmaclinkerflags": "",
     "tvosplistinject": "",

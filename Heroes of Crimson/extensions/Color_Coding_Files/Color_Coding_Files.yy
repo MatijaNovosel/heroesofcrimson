@@ -1,7 +1,7 @@
 {
     "id": "62eaa3f7-a0ad-44af-9732-0ac9b0da8eb4",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "Color_Coding_Files",
     "IncludedResources": [
         "Included Files\\A Touch of Crayon.col",
@@ -35,6 +35,7 @@
     "copyToTargets": 9223372036854775807,
     "date": "2019-55-02 04:05:13",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         
@@ -49,14 +50,18 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": 9223372036854775807,
     "tvosProps": false,
     "tvosSystemFrameworkEntries": [
         
@@ -65,6 +70,7 @@
         
     ],
     "tvosclassname": "",
+    "tvosdelegatename": null,
     "tvosmaccompilerflags": "",
     "tvosmaclinkerflags": "",
     "tvosplistinject": "",

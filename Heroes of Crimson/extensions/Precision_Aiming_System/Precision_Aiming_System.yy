@@ -1,7 +1,7 @@
 {
     "id": "ede10264-6411-44ea-927f-c97fcd6892b7",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "Precision_Aiming_System",
     "IncludedResources": [
         "Sprites\\spr_turret",
@@ -27,6 +27,7 @@
     "copyToTargets": 9223372036854775807,
     "date": "2019-55-02 04:05:15",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         
@@ -41,14 +42,18 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "com.hotsauce.pas",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": 9223372036854775807,
     "tvosProps": false,
     "tvosSystemFrameworkEntries": [
         
@@ -57,6 +62,7 @@
         
     ],
     "tvosclassname": "",
+    "tvosdelegatename": null,
     "tvosmaccompilerflags": "",
     "tvosmaclinkerflags": "",
     "tvosplistinject": "",

@@ -264,7 +264,6 @@ ds_grid_clear(count, 0);
 class = ds_grid_create(width, height);
 ds_grid_clear(class, 0);
 
-
 // Set the cell classes, see spr_itemsil
 switch(global.playerClass) {
     case(0): {

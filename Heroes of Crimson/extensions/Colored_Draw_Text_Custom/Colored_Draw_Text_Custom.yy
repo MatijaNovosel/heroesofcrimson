@@ -1,7 +1,7 @@
 {
     "id": "62a063fa-281c-44aa-8a59-c0c16ea4c302",
     "modelName": "GMExtension",
-    "mvc": "1.0",
+    "mvc": "1.2",
     "name": "Colored_Draw_Text_Custom",
     "IncludedResources": [
         "Scripts\\draw_text_custom"
@@ -20,6 +20,7 @@
     "copyToTargets": 9223372036854775807,
     "date": "2019-55-02 04:05:14",
     "description": "",
+    "exportToGame": true,
     "extensionName": "",
     "files": [
         
@@ -34,14 +35,18 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
     "maclinkerflags": "",
     "macsourcedir": "",
+    "options": null,
+    "optionsFile": "options.json",
     "packageID": "com.hulestudios.drawtextcustom",
     "productID": "",
     "sourcedir": "",
+    "supportedTargets": 9223372036854775807,
     "tvosProps": false,
     "tvosSystemFrameworkEntries": [
         
@@ -50,6 +55,7 @@
         
     ],
     "tvosclassname": "",
+    "tvosdelegatename": null,
     "tvosmaccompilerflags": "",
     "tvosmaclinkerflags": "",
     "tvosplistinject": "",
