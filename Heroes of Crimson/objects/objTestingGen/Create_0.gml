@@ -1,11 +1,27 @@
 /// @description  Create the grids
 room_speed = 60;
 
-scr_floor_init(10, 10, 40, __view_get( e__VW.WView, 0 ), __view_get( e__VW.HView, 0 ), 0.5, 0.5, 0);
-scr_rooms_init(2, 2, 0, 2);
-scr_corr_init(2);
-scr_tile_init(10000);
-scr_ent_init(0.025, 0.40, 60, 50);
+global.testingRoom = room_add();
+    
+// Configure the room settings
+room_set_height(global.testingRoom, 8000);
+room_set_width(global.testingRoom, 8000);
+room_set_persistent(global.testingRoom, false);
+room_set_view_enabled(global.testingRoom, true);
+room_set_view(global.testingRoom, 0, true, 0, 0, 800, 600, 0, 0, 800, 600, 32, 32, 2, 2, obj_camera);
+room_set_background_colour(global.testingRoom, scr_cformat($091526), true);
+
+room_instance_add(global.testingRoom, 5, 5, global.playerInstance);
+
+room_goto(global.testingRoom);
+
+/*
+
+// scr_floor_init(60, 60, 40, __view_get( e__VW.WView, 0 ), __view_get( e__VW.HView, 0 ), 0.33, 0.33, 4);
+// scr_rooms_init(2, 2, 0, 2);
+// scr_corr_init(2);
+// scr_tile_init(10000);
+// scr_ent_init(0.025, 0.40, 60, 50);
 
 // Set a delay so the game is less likely to freeze
 base_delay = 3;
@@ -18,7 +34,7 @@ wall_phase = 0;
 dgen_progress = "Creating partitions and corridors..";
 
 // Initiate the first splitting iteration
-current_iteration ++;
+current_iteration++;
 alarm[0] = 5;
 
 /// Create an enemy spawning system
@@ -29,68 +45,49 @@ scr_es_system_init_p1(5);
 var i;
 i = 0;
 es_data[i, 0] = obj_skeleton;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 100;
-}
-else
-{
+} else {
     es_data[i, 1] = 50;
 }
 
 // Skeletal Archer
 i = 1;
 es_data[i, 0] = obj_skeletal_archer;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 75;
-}
-else
-{
+} else {
     es_data[i, 1] = 100;
 }
 
 // Skeletal Warrior
 i = 2;
 es_data[i, 0] = obj_skeletal_warrior;
-if global.Floor_current = 0
-{
+if global.Floor_current = 0 {
     es_data[i, 1] = 75;
-}
-else
-{
+} else {
     es_data[i, 1] = 100;
 }
 
 // Skeletal Firemage
 i = 3;
 es_data[i, 0] = obj_skeletal_firemage;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 30;
-}
-else if global.Floor_current = 1
-{
+} else if(global.Floor_current = 1) {
     es_data[i, 1] = 50;
-}
-else if global.Floor_current = 2
-{
+} else if(global.Floor_current = 2) {
     es_data[i, 1] = 100;
 }
 
 // Skeletal Frostmage
 i = 4;
 es_data[i, 0] = obj_skeletal_frostmage;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 30;
-}
-else if global.Floor_current = 1
-{
+} else if(global.Floor_current = 1) {
     es_data[i, 1] = 50;
-}
-else if global.Floor_current = 2
-{
+} else if(global.Floor_current = 2) {
     es_data[i, 1] = 100;
 }
 
@@ -116,3 +113,4 @@ display_tile_colors = true;
 // Check whether the dungeon is fully generated
 gen_complete = false;
 
+*/

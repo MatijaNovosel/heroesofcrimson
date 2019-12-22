@@ -4,13 +4,9 @@
 var rng = irandom(e_total_weight);
 
 // Check what range the randomly generated number falls into, determine what enemy to spawn
-for (var i = 0; i < e_table_height; i++)
-{
-    if (rng <= range[i])
-    {
+for (var i = 0; i < e_table_height; i++) {
+    if (rng <= range[i]) {
         return (es_data[i, 0]);
         break;
     }
 }
-
-

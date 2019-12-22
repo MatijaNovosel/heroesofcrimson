@@ -3,6 +3,7 @@
 /// @param  max enemy dens
 /// @param  enemy spawn limit
 /// @param  chest chance
+
 entity_grid = ds_grid_create(floor_w, floor_h);
 ds_grid_clear(entity_grid, -1);
 

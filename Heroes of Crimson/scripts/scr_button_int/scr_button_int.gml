@@ -9,7 +9,7 @@ switch(button_func[button_id]) {
             break;
         } else {
             audio_play_sound(snd_menu_next, 0, 0);
-            room_goto(rm_start);
+            room_goto(roomTestingStart);
             break;
         }
     // Goto functions

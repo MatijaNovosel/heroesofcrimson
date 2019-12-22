@@ -2,7 +2,7 @@
     "id": "877d6c4a-bed3-4cec-aed2-b4b63c1b2346",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_dungeon1",
+    "name": "objTestingInit",
     "eventList": [
         {
             "id": "9fb14319-2d02-4b61-a1ed-b4b4faf07175",

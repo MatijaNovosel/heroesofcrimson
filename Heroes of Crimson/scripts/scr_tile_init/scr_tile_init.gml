@@ -16,4 +16,3 @@ tile_depth = argument0;
     4 = Wall side
 
 */
-

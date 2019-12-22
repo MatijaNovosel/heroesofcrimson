@@ -33,14 +33,12 @@ var __hspeed = argument13;
 var __vspeed = argument14;
 var __obj = argument15;
 
-if (!room_exists(__ind))
-{
+if (!room_exists(__ind)) {
 	show_debug_message("room_set_view: room " + string(__ind) + " does not exist");
 	return -1;
 }
 
-if ((__vind < 0) || (__vind > 7))
-{
+if ((__vind < 0) || (__vind > 7)) {
 	show_debug_message("room_set_view: view index out of range");
 	return -1;
 }
@@ -50,8 +48,7 @@ var __newcam = camera_create_view(__xview, __yview, __wview, __hview, 0, __obj, 
 
 // Get existing camera in room
 var __currcam = room_get_camera(__ind, __vind);
-if (__currcam != -1)
-{
+if (__currcam != -1) {
 	// destroy it so we don't leave it in limbo
 	camera_destroy(__currcam);
 }

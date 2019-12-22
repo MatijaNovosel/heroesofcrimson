@@ -8,6 +8,7 @@
 /// @param  min room v ratio
 /// @param  iterations
 // Define a size for the floor (width, height) and the tile size
+
 floor_w = argument0;
 floor_h = argument1;
 tile_s = argument2;
@@ -30,15 +31,13 @@ current_iteration = 0;
 
 // Calculate to predict the amount of partitions and splits
 part_total = 1;
-for (var i = 1; i <= iterations; i ++)
-{
+for (var i = 1; i <= iterations; i++) {
     part_total *= 2;
 }
 split_total = part_total div 2;
 
 // Keep track of each partition's bounding box coordinates
-for (var i = 0; i < part_total; i ++)
-{
+for (var i = 0; i < part_total; i++) {
     pbox_left[i] = -1;
     pbox_right[i] = -1;
     pbox_top[i] = -1;
@@ -51,8 +50,7 @@ pbox_top[0] = 0;
 pbox_bottom[0] = floor_h;
 
 // Keep track of each partition's parent and the iteration it was created on
-for (var i = 0; i < part_total; i ++)
-{
+for (var i = 0; i < part_total; i++) {
     part_it[i] = -1;
     part_parent[i] = -1;
     part_sis[i] = -1;
@@ -60,4 +58,3 @@ for (var i = 0; i < part_total; i ++)
 
 part_it[0] = 0;
 part_parent[0] = -5;
-

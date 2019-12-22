@@ -3,6 +3,7 @@
 /// @param  min room height
 /// @param  aspect ratio
 /// @param  part edge dis
+
 room_grid = ds_grid_create(floor_w, floor_h);
 ds_grid_clear(room_grid, -1);
 
@@ -19,11 +20,9 @@ start_room = -1;
 end_room = -1;
 
 // Keep track of each room's bounding box coordinates
-for (var i = 0; i < part_total; i ++)
-{
+for (var i = 0; i < part_total; i ++) {
     rbox_left[i] = -1;
     rbox_right[i] = -1;
     rbox_top[i] = -1;
     rbox_bottom[i] = -1;
 }
-

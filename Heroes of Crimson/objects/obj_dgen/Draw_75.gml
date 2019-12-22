@@ -8,4 +8,3 @@ if !gen_complete {
     draw_set_color(c_lime);
     draw_text(10, 10, string_hash_to_newline("Temporary loading text!#Please wait patiently as I construct this dungeon floor."+"##"+string(dgen_progress)));
 }
-

@@ -1,4 +1,4 @@
-/// @description  scr_draw_menu_name();
+/// @description scr_draw_menu_name();
 var str;
 
 switch(menu_current) {

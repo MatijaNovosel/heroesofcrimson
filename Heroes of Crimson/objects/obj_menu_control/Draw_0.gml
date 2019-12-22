@@ -143,7 +143,7 @@ if(menu_current == menu.charlist) {
         draw_set_halign(fa_left);
         draw_set_valign(fa_top);
         
-        //Draw items for the current class
+        // Draw items for the current class
         
         // Weapon
         draw_sprite(spr_charitem, 0, __view_get(e__VW.WView, 0) - 240 + 6 + (0 * 48), 160);
@@ -227,7 +227,9 @@ if(menu_current == menu.chardelete) {
 		__view_get(e__VW.WView, 0) div 2, 
 		(__view_get(e__VW.HView, 0) div 2) - 40, 
 		string_hash_to_newline("Are you SURE you want to delete#" + string(name) + ", the " + string(class) + "?"), 
-		1, c_black, 10
+		1, 
+		c_black, 
+		10
 	);
 }
 

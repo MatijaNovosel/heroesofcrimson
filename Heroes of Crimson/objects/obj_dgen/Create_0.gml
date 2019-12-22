@@ -29,68 +29,49 @@ scr_es_system_init_p1(5);
 var i;
 i = 0;
 es_data[i, 0] = obj_skeleton;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 100;
-}
-else
-{
+} else {
     es_data[i, 1] = 50;
 }
 
 // Skeletal Archer
 i = 1;
 es_data[i, 0] = obj_skeletal_archer;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 75;
-}
-else
-{
+} else {
     es_data[i, 1] = 100;
 }
 
 // Skeletal Warrior
 i = 2;
 es_data[i, 0] = obj_skeletal_warrior;
-if global.Floor_current = 0
-{
+if global.Floor_current = 0 {
     es_data[i, 1] = 75;
-}
-else
-{
+} else {
     es_data[i, 1] = 100;
 }
 
 // Skeletal Firemage
 i = 3;
 es_data[i, 0] = obj_skeletal_firemage;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 30;
-}
-else if global.Floor_current = 1
-{
+} else if(global.Floor_current = 1) {
     es_data[i, 1] = 50;
-}
-else if global.Floor_current = 2
-{
+} else if(global.Floor_current = 2) {
     es_data[i, 1] = 100;
 }
 
 // Skeletal Frostmage
 i = 4;
 es_data[i, 0] = obj_skeletal_frostmage;
-if global.Floor_current = 0
-{
+if(global.Floor_current = 0) {
     es_data[i, 1] = 30;
-}
-else if global.Floor_current = 1
-{
+} else if(global.Floor_current = 1) {
     es_data[i, 1] = 50;
-}
-else if global.Floor_current = 2
-{
+} else if(global.Floor_current = 2) {
     es_data[i, 1] = 100;
 }
 
@@ -115,4 +96,3 @@ display_tile_colors = true;
 
 // Check whether the dungeon is fully generated
 gen_complete = false;
-

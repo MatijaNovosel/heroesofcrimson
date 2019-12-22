@@ -1,4 +1,4 @@
-/// @description  Player controls
+/// @description Player controls
 scr_pl_keys();
 
 // Level array

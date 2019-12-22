@@ -1,5 +1,6 @@
 /// @description Global variables
 // Constanty update the HP, MP and XP %s
+
 global.playerhp_percent = (global.playerhp / global.playerhp_max) * 100
 global.playermp_percent = (global.playermp / global.playermp_max) * 100
 global.xp_percent = (global.xp / global.xp_max) * 100

@@ -1,5 +1,6 @@
-/// @description  scr_menu_init();
-// * * * * * Create an enumerator for the menu screens
+/// @description scr_menu_init();
+
+// Create an enumerator for the menu screens
 enum menu {
     // Title
     title,
@@ -16,7 +17,7 @@ enum menu {
     confirm_quit,
 }
 
-// * * * * * Create an enumerator for the button functions
+// Create an enumerator for the button functions
 enum func {
     goto_main,
     goto_charlist,
@@ -40,7 +41,7 @@ enum func {
     go_next,
 }
 
-// * * * * * Buttons
+// Buttons
 // Determine the size and placement of the buttons
 offset_x = 0;
 offset_y = 0;
@@ -58,7 +59,7 @@ button_total = -1;
 button_select = -1;
 hover_select = -1;
 
-// * * * * * Character buttons buttons
+// Character buttons buttons
 // Declare some variables
 char_count_max = 10; // How many characters the game can store at max
 char_display_count = 6; // How many characters to display per 'page'
